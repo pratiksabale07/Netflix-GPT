@@ -5,7 +5,7 @@ import VedioBackground from './VedioBackground'
 
 const MainContainer = () => {
     // get movies from store and taking only first movie 
-    const movies = useSelector(store => store.movies?.nowPlayingMovies?.movies)
+    const movies = useSelector(store => store.movies?.nowPlayingMovies)
     if (!movies) return
     const mainMovie = movies[0]
     const {original_title, overview, id} = mainMovie
