@@ -5,11 +5,13 @@ export const USER_AVATAR = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAA
 export const BACKGROUND_IMG = "https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/ea44b42b-ba19-4f35-ad27-45090e34a897/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg"
 
 export const API_OPTIONS = {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZGM2OTM2YTg5NWNiZmNmMmJhNDdhZTE0MzY0MDZlZiIsInN1YiI6IjY1MGZjZDQxMjZkYWMxMDEyZDVhZjkxNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.zOXG0JXuBRql5sdGSvp8ZNesey2iJndjSfu9ff1JQdw'
-    }
-  };
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZGM2OTM2YTg5NWNiZmNmMmJhNDdhZTE0MzY0MDZlZiIsInN1YiI6IjY1MGZjZDQxMjZkYWMxMDEyZDVhZjkxNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.zOXG0JXuBRql5sdGSvp8ZNesey2iJndjSfu9ff1JQdw'
+  }
+};
 
-  export const IMG_CDN = 'https://image.tmdb.org/t/p/w500/'
+export const IMG_CDN = 'https://image.tmdb.org/t/p/w500/'
+
+export const SUPPORTED_LANGUAGES = [{ identifier: 'en', name: 'English' }, { identifier: 'hi', name: 'Hindi' }, { identifier: 'spanish', name: 'Spanish' }]
