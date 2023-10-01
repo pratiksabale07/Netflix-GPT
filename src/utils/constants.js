@@ -15,3 +15,5 @@ export const API_OPTIONS = {
 export const IMG_CDN = 'https://image.tmdb.org/t/p/w500/'
 
 export const SUPPORTED_LANGUAGES = [{ identifier: 'en', name: 'English' }, { identifier: 'hi', name: 'Hindi' }, { identifier: 'spanish', name: 'Spanish' }]
+
+export const OPENAI_KEY = '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'
